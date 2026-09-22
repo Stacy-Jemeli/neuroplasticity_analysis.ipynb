@@ -1,0 +1,53 @@
+# Confidential research datasets
+data/raw/
+data/cleaned/
+data/analysis/
+01_Raw_Data/
+02_Cleaned_Data/
+03_Analysis_Data/
+
+# Participant-level results
+05_Results/
+08_Analysis_Log/
+results/participant_level/
+logs/
+
+# Research data files
+*.xlsx
+*.xls
+*.sav
+*.dta
+
+# CSV files are excluded by default
+*.csv
+
+# Approved public documentation files
+!data/data_dictionary.csv
+!data/synthetic_example.csv
+!tables/*.csv
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and credential files
+.env
+.env.*
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+~$*
