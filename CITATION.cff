@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the thesis and this repository."
+title: "Prediction of Optimal Functional Improvement Following Cerebral Palsy Rehabilitation"
+type: software
+authors:
+  - family-names: "Ngetich"
+    given-names: "Stacy Jemeli"
+version: 1.0.0
+date-released: 2026-09-22
+license: MIT
+keywords:
+  - cerebral palsy
+  - rehabilitation
+  - early intervention
+  - logistic regression
+  - elastic net
+  - prediction modelling
+  - neuroplasticity
